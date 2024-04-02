@@ -86,6 +86,8 @@ Donde `<tipo>` puede ser:
 
 - `formulario`: Para cambios en los formularios.
 - `docs`: Para cambios en la documentación (README's, etc.)
+- `workflow`: Para cambios en los flujos de trabajo (CI/CD, etc.)
+- `estilo`: Para cambios que no afectan el significado del código (espacios en blanco, formato, etc.)
 
 Y `<mensaje>` es una descripción corta del cambio realizado.
 
