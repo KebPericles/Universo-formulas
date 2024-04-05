@@ -26,10 +26,6 @@ $$\mathcal{F}\{af(t) + bg(t)\} = aF(\omega) + bG(\omega)$$
 
 $$\mathcal{F}\{f(t - t_0)\} = F(\omega)e^{-i\omega t_0}$$
 
-##### Fórmulas relacionadas
-
-[Desplazamiento en el dominio de la frecuencia](#desplazamiento-en-la-frecuencia)
-
 #### Desplazamiento en la frecuencia
 
 $$\mathcal{F}\{e^{i\omega_0 t}f(t)\} = F(\omega - \omega_0)$$
