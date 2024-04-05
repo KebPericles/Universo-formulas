@@ -1,6 +1,6 @@
 # Repositorio de fórmulas en LaTeX
 
-Este repositorio pretende ser un compendio de fórmulas en LaTeX que puedan ser reutilizadas, sin necesidad de pasar horas buscando en internet o de reescribir las fórmulas cada que se necesiten.
+Este repositorio pretende ser un compendio de fórmulas en LaTeX que puedan ser reutilizadas, sin necesidad de buscar en todo internet o de reescribir las fórmulas cada que se necesiten.
 
 No se tiene como objetivo ser un formulario o apunte completo en el que se profundize.
 
