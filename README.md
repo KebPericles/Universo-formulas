@@ -80,6 +80,10 @@ $$
 n\omega_0=\frac{2\pi n}{T} = 2\pi nf
 $$
 
+### Mostrar bloque de código LatTeX
+
+Compilar los formularios para mostrar el código LaTeX de las fórmulas, esto con el fin de que se puedan copiar y pegar fácilmente.
+
 ## Contribución
 
 ### Nomenclatura de commits
