@@ -72,6 +72,14 @@ Las áreas a las que pertenece un formulario se definiran en la sección `# Áre
 
 La notación anterior `[Área 1]` es para un enlace con estilo de referencia ([más información aquí](https://www.markdownguide.org/basic-syntax/#reference-style-links)), en principio no es necesario agregar el estilo de referencia, ya que al compilar los formularios se añadirá y si ya se encuentra se quitará y se reemplazará por el enlace correcto.
 
+### Cambio de variables
+
+Opción para cambiar las variables de las fórmulas, por ejemplo, cambiar `t` por `x` en todas las fórmulas de un formulario o de forma más compleja un conjunto a otro. Por ejemplo en el formulario de las [Series de Fourier](formularios/Series%20de%20Fourier.md) poder escoger entre usar la frecuencia angular, la frecuencia o el periodo:
+
+$$
+n\omega_0=\frac{2\pi n}{T} = 2\pi nf
+$$
+
 ## Contribución
 
 ### Nomenclatura de commits
