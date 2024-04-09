@@ -4,10 +4,10 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - '**/*.md'
+      - "**/*.md"
   pull_request:
     paths:
-      - '**/*.md'
+      - "**/*.md"
 
 jobs:
   format:
@@ -16,15 +16,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4.1.2
 
-      - name: Run Prettier
-        id: prettier-run
-        uses: rutajdash/prettier-cli-action@v1.0.2
+      - name: Prettify code
+        uses: creyD/prettier_action@v4.3
         with:
-          config_path: './.prettierrc'
-          file_pattern: '**/*.md'
-
-      - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v5.0.0
-        with:
+          # This part is also where you can pass other options, for example:
+          prettier_options: --write **/*.md
+          only_changed: True
           commit_message: 'estilo{.md}: Prettier'
-          file_pattern: '*.md'
