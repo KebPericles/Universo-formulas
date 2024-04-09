@@ -20,7 +20,8 @@ jobs:
         id: prettier-run
         uses: rutajdash/prettier-cli-action@v1.0.2
         with:
-          config_path: ./.prettierrc
+          config_path: './.prettierrc'
+          file_pattern: '**/*.md'
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5.0.0
