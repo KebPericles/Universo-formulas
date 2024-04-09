@@ -31,9 +31,7 @@ $$\mathcal{F}\{f(t - t_0)\} = F(\omega)e^{-i\omega t_0}$$
 $$\mathcal{F}\{e^{i\omega_0 t}f(t)\} = F(\omega - \omega_0)$$
 
 ### Simetría
-
 $$F(-\omega) = F^*(\omega)$$
-
 # Temas relacionados
 
 - [Series de Fourier](Series%20de%20Fourier.md)
