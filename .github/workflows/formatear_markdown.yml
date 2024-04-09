@@ -19,7 +19,5 @@ jobs:
       - name: Prettify code
         uses: creyD/prettier_action@v4.3
         with:
-          # This part is also where you can pass other options, for example:
-          prettier_options: --write **/*.md
-          only_changed: True
-          commit_message: 'estilo{.md}: Prettier'
+          prettier_options: "--write **/*.md"
+          commit_message: "estilo{.md}: Prettier"
