@@ -45,7 +45,15 @@ $$
 #### Coeficientes de la serie de Fourier exponencial
 
 $$
+c_{0} = \frac{1}{T} \int_{0}^{T} f(t) \, dt
+$$
+
+$$
 c_n = \frac{1}{T} \int_{0}^{T} f(t) e^{-jn\omega_0 t} \, dt
+$$
+
+$$
+c_{-n} = c_{n}^{*}
 $$
 
 ### Relación entre los coeficientes de la serie de Fourier exponencial y trigonométrica
