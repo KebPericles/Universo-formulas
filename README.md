@@ -49,6 +49,11 @@ Hasta ahora se tiene planeado incluir los siguientes campos:
 
 TODO Aquí se pondrá una explicación de cómo se estructuran las fórmulas en un formulario.
 
+> [!IMPORTANT]  
+> Para las fórmulas se podrá usar el formato estándar de LaTeX `$$ $$`, aunque se recomienda usar el bloque de código `math`.  
+> En caso de que existan problemas de renderizado, será obligatorio usar el bloque de código `math`, ya que es la implementación más estable y compatible del [GitHub Flavored Markdown](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions#writing-expressions-as-blocks) con la sintáxis de LaTeX.  
+> En [esta discusión](https://github.com/orgs/community/discussions/36984#discussioncomment-3981018) se da una breve razón (no oficial) del porque la incompatibilidad y en [esta otra](https://github.com/orgs/community/discussions/87461) se pide que lo arreglen.
+
 #### Temas relacionados
 
 TODO Aquí se pondrá una explicación de cómo se estructuran los temas relacionados en un formulario y su objetivo.
