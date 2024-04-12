@@ -6,8 +6,8 @@ title: Variable compleja
 
 ### Conjugado complejo
 
-$$
-z^{*} = Re \\{ z \\} - j Im \\{ z \\}
-$$
+```math
+z^{*} = Re \{ z \} - j Im \{ z \}
+```
 
 # Temas relacionados
