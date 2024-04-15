@@ -35,9 +35,11 @@ $$\mathcal{F}\{e^{i\omega_0 t}f(t)\} = F(\omega - \omega_0)$$
 $$F(-\omega) = F^*(\omega)$$
 
 ## Teorema de convolución
+
 ###### Referencias
 
 - Convolución de Tiempo Continuo y el CTFT. (2022, October 30). Rice University. https://espanol.libretexts.org/@go/page/86343
+
 ### En tiempo
 
 $$
