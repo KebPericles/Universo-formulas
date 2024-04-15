@@ -34,6 +34,22 @@ $$\mathcal{F}\{e^{i\omega_0 t}f(t)\} = F(\omega - \omega_0)$$
 
 $$F(-\omega) = F^*(\omega)$$
 
+## Teorema de convolución
+###### Referencias
+
+- Convolución de Tiempo Continuo y el CTFT. (2022, October 30). Rice University. https://espanol.libretexts.org/@go/page/86343
+### En tiempo
+
+$$
+\mathcal{F}\left\{f * g\right\} =  \mathcal{F}\left\{f\right\} \mathcal{F}\left\{g\right\}
+$$
+
+### En frecuencia
+
+$$
+\mathcal{F}\left\{f g\right\} = \frac{1}{2\pi} \mathcal{F}\left\{f\right\} * \mathcal{F}\left\{g\right\}
+$$
+
 # Temas relacionados
 
 - [Series de Fourier](Series%20de%20Fourier.md)
