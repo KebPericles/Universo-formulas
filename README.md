@@ -12,11 +12,13 @@ Actualmente los formularios se encuentran en la carpeta base del repositorio, lo
 
 ### Organización de un formulario
 
+TL;DR: En la siguiente sección se explica a detalle y con ejemplos cómo se organiza un formulario. Si prefieres omitir la explicación y ver directamente un ejemplo, el formulario ["Transformada de Fourier"](formularios/Transformada%20de%20Fourier.md) es excelente para ver toda la estructura de un formulario.
+
 Un formulario se compone de tres secciones:
 
 1. [Frontmatter](#frontmatter)
 
-2. [Fórmulas (todo)](#fórmulas)
+2. [Fórmulas](#fórmulas)
 3. [Temas relacionados (todo)](#temas-relacionados)
 
 ##### Ejemplo de un formulario
@@ -47,7 +49,43 @@ Hasta ahora se tiene planeado incluir los siguientes campos:
 
 #### Fórmulas
 
-TODO Aquí se pondrá una explicación de cómo se estructuran las fórmulas en un formulario.
+Esta sección contendrá las fórmulas en LaTeX. Se iniciará con un título de nivel 1 (`# Fórmulas`) y se organizarán las fórmulas por subtema de nivel 2 (`## Subtema 1`, `## Subtema 2`, etc.).
+
+Dentro de cada subtema se pondrán las fórmulas, empezando con un título de nivel 3 (`### Fórmula 1`, `### Fórmula 2`, etc.) y la fórmula en LaTeX (para aquellas fórmulas que no necesiten subtema se podrán incluir inmediatamente después del título `# Fórmulas`).
+
+Opcionalmente se pueden incluir referencias, para lo cual se pondrá un título de nivel 6 al final de la fórmula (`###### Referencias`) y dentro las referencias (se recomienda citar en APA para mantener un estilo, pero no es estrictamente necesario). Para aquellas referencias que sirvan para todas o la mayoría de las fórmulas de un subtema se podrá poner el título de nivel 6 antes de las fórmulas.
+
+##### Ejemplo de fórmulas
+
+El formulario de [Transformada de Fourier](formularios/Transformada%20de%20Fourier.md) es un muy buen ejemplo de la organización de fórmulas y, en general, de la estructura para un formulario.
+
+```markdown
+# Fórmulas
+
+## Subtema 1
+
+###### Referencias ------- (Referencias para todas las fórmulas de este subtema)
+
+- [Wikipedia](https://es.wikipedia.org/wiki/Serie_de_Fourier)
+
+### Fórmula con referencias únicas
+
+$$
+f(t) = \frac{a*0}{2} + \sum*{n=1}^{\infty} \left( a_n \cos \left( \frac{2\pi n t}{T} \right) + b_n \sin \left( \frac{2\pi n t}{T} \right) \right)
+$$
+
+###### Referencias ------- (Referencias para esta fórmula)
+
+- [Wikipedia](https://es.wikipedia.org/wiki/Serie_de_Fourier)
+
+### Fórmula sin referencias únicas
+
+$$
+a_n = \frac{2}{T} \int_{0}^{T} f(t) \cos \left( \frac{2\pi n t}{T} \right) \, dt
+$$
+```
+
+Nota: este formato puede cambiar en el futuro si es necesario.
 
 > [!IMPORTANT]  
 > Para las fórmulas se podrá usar el formato estándar de LaTeX `$$ $$`, aunque se recomienda usar el bloque de código `math`.  
@@ -57,6 +95,8 @@ TODO Aquí se pondrá una explicación de cómo se estructuran las fórmulas en 
 #### Temas relacionados
 
 TODO Aquí se pondrá una explicación de cómo se estructuran los temas relacionados en un formulario y su objetivo.
+
+###
 
 ## Planes futuros
 
