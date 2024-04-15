@@ -42,15 +42,15 @@ $$F(-\omega) = F^*(\omega)$$
 
 ### En tiempo
 
-$$
-\mathcal{F}\left\{f * g\right\} =  \mathcal{F}\left\{f\right\} \mathcal{F}\left\{g\right\}
-$$
+```math
+\mathcal{F}\left\{f * g\right\} =  \mathcal{F}\left\{f\right\} \cdot \mathcal{F}\left\{g\right\}
+```
 
 ### En frecuencia
 
-$$
-\mathcal{F}\left\{f g\right\} = \frac{1}{2\pi} \mathcal{F}\left\{f\right\} * \mathcal{F}\left\{g\right\}
-$$
+```math
+\mathcal{F}\left\{f \cdot g\right\} = \frac{1}{2\pi} \mathcal{F}\left\{f\right\} * \mathcal{F}\left\{g\right\}
+```
 
 # Temas relacionados
 
