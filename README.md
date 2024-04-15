@@ -30,7 +30,7 @@ title: Series de Fourier
 
 # Fórmulas
 
-#### Serie de Fourier trigonométrica
+### Serie de Fourier trigonométrica
 
 \[ f(t) = \frac{a*0}{2} + \sum*{n=1}^{\infty} \left( a_n \cos \left( \frac{2\pi n t}{T} \right) + b_n \sin \left( \frac{2\pi n t}{T} \right) \right) \]
 
