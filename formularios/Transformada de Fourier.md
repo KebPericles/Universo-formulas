@@ -6,15 +6,15 @@ title: Transformada de Fourier
 
 ### Transformada de Fourier en tiempo continuo
 
-$$
+```math
 F(\omega) = \int_{-\infty}^{\infty} f(t) \cdot e^{-j\omega t} \, dt
-$$
+```
 
 ### Transformada inversa de Fourier
 
-$$
+```math
 f(t) = \frac{1}{2\pi} \int_{-\infty}^{\infty} F(\omega) \cdot e^{j\omega t} \, d\omega
-$$
+```
 
 ## Propiedades
 
