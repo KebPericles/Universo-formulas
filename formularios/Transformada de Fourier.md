@@ -20,15 +20,19 @@ f(t) = \frac{1}{2\pi} \int_{-\infty}^{\infty} F(\omega) \cdot e^{j\omega t} \, d
 
 ### Linealidad
 
-$$\mathcal{F}\{af(t) + bg(t)\} = aF(\omega) + bG(\omega)$$
+```math
+\mathcal{F}\{af(t) + bg(t)\} = aF(\omega) + bG(\omega)
+```
 
 ### Desplazamiento en el dominio del tiempo
-
-$$\mathcal{F}\{f(t - t_0)\} = F(\omega)e^{-i\omega t_0}$$
+```math
+\mathcal{F}\{f(t - t_0)\} = F(\omega)e^{-i\omega t_0}
+```
 
 ### Desplazamiento en la frecuencia
-
-$$\mathcal{F}\{e^{i\omega_0 t}f(t)\} = F(\omega - \omega_0)$$
+```math
+\mathcal{F}\{e^{i\omega_0 t}f(t)\} = F(\omega - \omega_0)
+```
 
 ### Simetría
 
