@@ -30,8 +30,7 @@ A grandes rasgos los pasos para contribuir con un formulario son los siguientes:
 6. Haz un push de la rama a tu fork.
 7. Crea un pull request en el repositorio principal explicando los cambios. Si el pull request está relacionado con un issue, por favor menciona el número del issue en la descripción del pull request.
 
-> [!TIP]
-> Mantén el pull request pequeño y enfocado en un solo cambio. Esto facilitará la revisión y la aceptación de los cambios.
+> [!TIP] Mantén el pull request pequeño y enfocado en un solo cambio. Esto facilitará la revisión y la aceptación de los cambios.
 
 ¡Gracias por tu colaboración!
 
