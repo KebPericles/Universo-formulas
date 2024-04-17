@@ -4,7 +4,22 @@ Este repositorio pretende ser un compendio de fórmulas en LaTeX que puedan ser 
 
 No se tiene como objetivo ser un apunte en el que se profundize sobre las fórmulas.
 
+## Contenidos
+
+- [Estructura del repositorio](#estructura-del-repositorio)
+  - [Organización de un formulario](#organización-de-un-formulario)
+    - [Frontmatter](#frontmatter)
+    - [Fórmulas](#fórmulas)
+    - [Temas relacionados (todo)](#temas-relacionados)
+- [Planes futuros](#planes-futuros)
+
+> [!IMPORTANT]  
+> Para contribuir, por favor lee la guía de contribución en [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## Estructura del repositorio
+
+> [!NOTE]  
+> Es muy probable que la información de esta sección se mueva a [CONTRIBUTING.md](CONTRIBUTING.md), ya que el README debería estar enfocado más en el uso del repositorio. Si tienes alguna sugerencia, por favor abre un issue.
 
 Usaremos el término formulario para referirnos a cualquier archivo markdown (`.md`) que contenga fórmulas en LaTeX.
 
@@ -126,28 +141,3 @@ $$
 ### Mostrar bloque de código LatTeX
 
 Compilar los formularios para mostrar el código LaTeX de las fórmulas, esto con el fin de que se puedan copiar y pegar fácilmente.
-
-## Contribución
-
-### Nomenclatura de commits
-
-Se usará la siguiente nomenclatura para los commits:
-
-```plaintext
-<tipo>: <mensaje>
-```
-
-Donde `<tipo>` puede ser:
-
-- `formulario`: Para cambios en los formularios.
-- `docs`: Para cambios en la documentación (README's, etc.)
-- `workflow`: Para cambios en los flujos de trabajo (CI/CD, etc.)
-- `estilo`: Para cambios que no afectan el significado del código (espacios en blanco, formato, etc.)
-
-Y `<mensaje>` es una descripción corta del cambio realizado.
-
-### Formateo markdown
-
-Se usa Prettier para formatear los archivos markdown. Se recomienda instalar la extensión de Prettier en el editor de texto que se use.
-
-La configuración de Prettier se encuentra en el archivo `.prettierrc`.
