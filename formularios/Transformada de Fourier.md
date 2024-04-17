@@ -25,11 +25,13 @@ f(t) = \frac{1}{2\pi} \int_{-\infty}^{\infty} F(\omega) \cdot e^{j\omega t} \, d
 ```
 
 ### Desplazamiento en el dominio del tiempo
+
 ```math
 \mathcal{F}\{f(t - t_0)\} = F(\omega)e^{-i\omega t_0}
 ```
 
 ### Desplazamiento en la frecuencia
+
 ```math
 \mathcal{F}\{e^{i\omega_0 t}f(t)\} = F(\omega - \omega_0)
 ```
