@@ -23,7 +23,7 @@ No se tiene como objetivo ser un apunte en el que se profundize sobre las fórmu
 
 Usaremos el término formulario para referirnos a cualquier archivo markdown (`.md`) que contenga fórmulas en LaTeX.
 
-Actualmente los formularios se encuentran en la carpeta base del repositorio, lo cual nos lleva al tema de la organización para lo cual deberemos explicar primero como se organizará un formulario.
+Actualmente los formularios se encuentran en la carpeta formularios.
 
 ### Organización de un formulario
 
