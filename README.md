@@ -96,8 +96,6 @@ Nota: este formato puede cambiar en el futuro si es necesario.
 
 TODO Aquí se pondrá una explicación de cómo se estructuran los temas relacionados en un formulario y su objetivo.
 
-###
-
 ## Planes futuros
 
 ### Generación de índices
