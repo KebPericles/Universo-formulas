@@ -106,7 +106,7 @@ $$\frac{d}{dx} csch(u) = -csch(u)\cdot coth(u) \cdot\frac{du}{dx}$$
 
 $$\frac{d}{dx} arcsinh(u) = \frac{1}{\sqrt{1+u^2}}\cdot\frac{du}{dx}$$
 
-$$\frac{d}{dx} arccosh(u) = -\frac{1}{\sqrt{u^2-1}} \cdot\frac{du}{dx}$$
+$$\frac{d}{dx} arccosh(u) = \frac{1}{\sqrt{u^2-1}} \cdot\frac{du}{dx}$$
 
 $$\frac{d}{dx} arctanh(u) = \frac{1}{{1-u^2}} \cdot\frac{du}{dx}$$
 
