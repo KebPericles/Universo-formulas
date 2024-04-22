@@ -8,17 +8,16 @@ title: Cálculo diferencial e integral
 
 La siguiente notación será usada para este formulario:
 
-| Símbolo                                                         | Significado                               |
-|-----------------------------------------------------------------|-------------------------------------------|
-| $x$                                                             | Variable independiente                    |
-| $f(x)$, $g(x)$, $h(x)$                                          | Funciones sobre x                         |
-| $\displaystyle \frac{d}{dx}f(x)$, $\displaystyle \frac{df}{dx}$ | Derivada sobre x de una función           |
-| $u$, $v$, $w$                                                   | Variables dependientes                    |
-| $c$, $n$                                                        | Un valor constante                        |
-| $dx$, $du$, $dv$, $dw$                                          | Diferencial de una variable               |
-| $\displaystyle \int dx$                                         | Integral                                  |
-| $\mathfrak{C}$                                                  | Constante de integración                  |
-
+| Símbolo | Significado |
+| --- | --- |
+| $x$ | Variable independiente |
+| $f(x)$, $g(x)$, $h(x)$ | Funciones sobre x |
+| $\displaystyle \frac{d}{dx}f(x)$, $\displaystyle \frac{df}{dx}$ | Derivada sobre x de una función |
+| $u$, $v$, $w$ | Variables dependientes |
+| $c$, $n$ | Un valor constante |
+| $dx$, $du$, $dv$, $dw$ | Diferencial de una variable |
+| $\displaystyle \int dx$ | Integral |
+| $\mathfrak{C}$ | Constante de integración |
 
 ## Derivadas
 
@@ -138,17 +137,9 @@ $$\int a^udu = \frac{a^u}{ln(a)} + \mathfrak{C}$$
 
 ### Trigonométricas
 
-$$\int sin(u)du = -cos(u) + \mathfrak{C}$$
-$$\int cos(u)du = sin(u) + \mathfrak{C}$$
-$$\int tan(u)du = -ln(cos(u)) + \mathfrak{C} = ln(sec(u)) + \mathfrak{C}$$
-$$\int cot(u)du = ln(sin(u)) + \mathfrak{C}$$
-$$\int sec(u)du = ln(sec(u) + tan(u)) + \mathfrak{C}$$
-$$\int csc(u)du = ln(csc(u) - cot(u)) + \mathfrak{C}$$
+$$\int sin(u)du = -cos(u) + \mathfrak{C}$$ $$\int cos(u)du = sin(u) + \mathfrak{C}$$ $$\int tan(u)du = -ln(cos(u)) + \mathfrak{C} = ln(sec(u)) + \mathfrak{C}$$ $$\int cot(u)du = ln(sin(u)) + \mathfrak{C}$$ $$\int sec(u)du = ln(sec(u) + tan(u)) + \mathfrak{C}$$ $$\int csc(u)du = ln(csc(u) - cot(u)) + \mathfrak{C}$$
 
-$$\int sec^2(u)du = tan(u) + \mathfrak{C}$$
-$$\int csc^2(u)du = -cot(u) + \mathfrak{C}$$
-$$\int sec(u)tan(u)du = sec(u) + \mathfrak{C}$$
-$$\int csc(u)cot(u)du = -csc(u) + \mathfrak{C}$$
+$$\int sec^2(u)du = tan(u) + \mathfrak{C}$$ $$\int csc^2(u)du = -cot(u) + \mathfrak{C}$$ $$\int sec(u)tan(u)du = sec(u) + \mathfrak{C}$$ $$\int csc(u)cot(u)du = -csc(u) + \mathfrak{C}$$
 
 ### Raíces comunes por inversas trigonométricas
 
