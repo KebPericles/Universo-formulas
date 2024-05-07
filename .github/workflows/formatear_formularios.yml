@@ -23,10 +23,12 @@ jobs:
 
       - name: Agregar bloques de código a los formularios
         run: |
-          for file in "$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})"; do
-            if [[ $file == *.md ]]; then
-              python .github/scripts/agregar_bloque_math.py "$file"
-            fi
+          IFS=$'\n' read -r -d '' -a files < <( git diff --name-only ${{ github.event.before }} ${{ github.sha }} && printf '\0' )
+
+          for file in ${files}; do
+                  if [[ $file == *.md ]]; then
+                          python .github/scripts/agregar_bloque_math.py "$file"
+                  fi
           done
 
       - uses: EndBug/add-and-commit@v9
