@@ -1,0 +1,29 @@
+name: Formatear Formularios
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "formularios/*.md"
+  pull_request:
+    paths:
+      - "formularios/*.md"
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4.1.2
+
+      - name: Agregar bloques de código a los formularios
+        run: for file in $(git diff --name-only ${{ github.event.before }} ${{ github.sha }}); do
+          if [[ $file == *.md ]]; then
+            python .github/scripts/update_markdown.py $file
+          fi
+
+      - name: Prettify code
+        uses: creyD/prettier_action@v4.3
+        with:
+          prettier_options: "--write **/*.md"
+          commit_message: "estilo{.md}: Prettier"
