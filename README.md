@@ -137,7 +137,3 @@ Opción para cambiar las variables de las fórmulas, por ejemplo, cambiar `t` po
 $$
 n\omega_0=\frac{2\pi n}{T} = 2\pi nf
 $$
-
-### Mostrar bloque de código LatTeX
-
-Compilar los formularios para mostrar el código LaTeX de las fórmulas, esto con el fin de que se puedan copiar y pegar fácilmente.
