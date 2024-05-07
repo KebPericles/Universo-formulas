@@ -174,3 +174,4 @@ $$\int \frac{du}{\sqrt{u^2 \pm c^2}} = ln\left( u + \sqrt{u^2 \pm c^2} \right) +
 $$\int \sqrt{c^2-u^2}du = \frac{u}{2}\sqrt{c^2-u^2} + \frac{c^2}{2}arcsin\left( \frac{u}{a} \right) + \mathfrak{C}$$
 
 $$\int \sqrt{u^2\pm c^2}du = \frac{u}{2}\sqrt{u^2 \pm c^2} \pm \frac{c^2}{2}ln\left( u + \sqrt{u^2 + c^2} \right) + \mathfrak{C}$$
+
