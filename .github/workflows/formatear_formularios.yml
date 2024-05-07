@@ -19,7 +19,7 @@ jobs:
 
       - uses: actions/checkout@v4.1.2
         with:
-          fetch-depth: 2
+          fetch-depth: 15
 
       - name: Agregar bloques de código a los formularios
         run: |
