@@ -14,15 +14,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Acondicionar git # Necesario para que git diff funcione correctamente con archivos UTF-8
+        run:  git config --global core.quotepath off
+
       - uses: actions/checkout@v4.1.2
         with:
           fetch-depth: 2
 
       - name: Agregar bloques de código a los formularios
         run: |
-          for file in $(git diff --name-only ${{ github.event.before }} ${{ github.sha }}); do
+          for file in "$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})"; do
             if [[ $file == *.md ]]; then
-              python .github/scripts/update_markdown.py $file
+              python .github/scripts/agregar_bloque_math.py "$file"
             fi
           done
 
