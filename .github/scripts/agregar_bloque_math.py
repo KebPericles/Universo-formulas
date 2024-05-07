@@ -86,16 +86,13 @@ def update_file(file_path, dest_folder = None):
 
         content = re.compile(display_math_pattern, re.VERBOSE).sub(
             substitute, content)
-
-        # TODO: Implementar la lógica para agregar los bloques de código, en teoría con la función re.sub se puede agregar, y en caso de que ya exista, la regex incluye el bloque de código, por lo que se reemplazaría.
+        
+        content = re.compile(code_math_pattern, re.VERBOSE).sub(
+            substitute, content)
 
         # Escribir el contenido actualizado de vuelta al archivo
         with open(dest_file_path, 'w', encoding='utf-8') as dest_file:
             dest_file.write(content)
-
-            # Copiar el archivo a la carpeta de destino
-            # shutil.copy(file_path, os.path.join(
-            #     dest_folder, os.path.basename(file_path)))
 
 
 def main():
