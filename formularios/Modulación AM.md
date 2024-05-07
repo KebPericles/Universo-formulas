@@ -71,4 +71,3 @@ T_C \ll C R_L \ll T_m
 # Temas relacionados
 
 - [Transformada de Fourier](Transformada%20de%20Fourier.md)
-

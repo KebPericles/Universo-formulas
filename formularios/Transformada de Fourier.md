@@ -142,4 +142,3 @@ F(-\omega) = F^*(\omega)
 
 - [Series de Fourier](Series%20de%20Fourier.md)
 - [Variable compleja](Variable%20compleja.md)
-

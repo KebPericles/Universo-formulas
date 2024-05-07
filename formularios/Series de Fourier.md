@@ -213,4 +213,3 @@ c_{-n} = \frac{a_n + jb_n}{2}
 
 <!-- AUTOGENERADO TERMINA - NO MODIFICAR -->
 <!----------------------------------------->
-
