@@ -43,7 +43,7 @@ $$\frac{d}{dx} c = 0 $$
 <!-- AUTOGENERADO INICIA - NO MODIFICAR --->
 
 ```
-\frac{d}{dx} c = 0 
+\frac{d}{dx} c = 0
 ```
 
 <!-- AUTOGENERADO TERMINA - NO MODIFICAR -->
@@ -64,6 +64,7 @@ $$\frac{d}{dx} c \cdot f(x) = c \cdot \frac{d}{dx} f(x)$$
 <!----------------------------------------->
 
 ###### Alias
+
 - Linealidad de la derivada
 
 ### Regla de la suma
@@ -348,6 +349,7 @@ $$\frac{d}{dx} arcsin(u) = \frac{1}{\sqrt{1-u^2}}\cdot\frac{du}{dx}$$
 <!----------------------------------------->
 
 ###### Alias
+
 - Seno inverso
 
 ### Arco coseno
@@ -365,6 +367,7 @@ $$\frac{d}{dx} arccos(u) = -\frac{1}{\sqrt{1-u^2}} \cdot\frac{du}{dx}$$
 <!----------------------------------------->
 
 ###### Alias
+
 - Coseno inverso
 
 ### Arco tangente
@@ -382,6 +385,7 @@ $$\frac{d}{dx} arctan(u) = \frac{1}{{1+u^2}} \cdot\frac{du}{dx}$$
 <!----------------------------------------->
 
 ###### Alias
+
 - Tangente inversa
 
 ### Arco cotangente
@@ -399,6 +403,7 @@ $$\frac{d}{dx} arccot(u) = -\frac{1}{{1+u^2}}  \cdot\frac{du}{dx}$$
 <!----------------------------------------->
 
 ###### Alias
+
 - Cotangente inversa
 
 ### Arco secante
@@ -416,6 +421,7 @@ $$\frac{d}{dx} arcsec(u) = \frac{1}{u\cdot\sqrt{u^2-1}} \cdot\frac{du}{dx}$$
 <!----------------------------------------->
 
 ###### Alias
+
 - Secante inversa
 
 ### Arco cosecante
@@ -433,6 +439,7 @@ $$\frac{d}{dx} arccsc(u) = -\frac{1}{u\cdot\sqrt{u^2-1}} \cdot\frac{du}{dx}$$
 <!----------------------------------------->
 
 ###### Alias
+
 - Cosecante inversa
 
 ### Seno hiperbólico
@@ -518,7 +525,9 @@ $$\frac{d}{dx} csch(u) = -csch(u)\cdot coth(u) \cdot\frac{du}{dx}$$
 
 <!-- AUTOGENERADO TERMINA - NO MODIFICAR -->
 <!----------------------------------------->
+
 ### Arco seno hiperbólico
+
 $$\frac{d}{dx} arcsinh(u) = \frac{1}{\sqrt{1+u^2}}\cdot\frac{du}{dx}$$
 
 <!----------------------------------------->
