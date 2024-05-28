@@ -43,7 +43,7 @@ $$\frac{d}{dx} c = 0 $$
 <!-- AUTOGENERADO INICIA - NO MODIFICAR --->
 
 ```
-\frac{d}{dx} c = 0
+\frac{d}{dx} c = 0 
 ```
 
 <!-- AUTOGENERADO TERMINA - NO MODIFICAR -->
