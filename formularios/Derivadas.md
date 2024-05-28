@@ -242,6 +242,8 @@ $$\frac{d}{dx} |x| = \frac{x}{ |x| }$$
 <!-- AUTOGENERADO TERMINA - NO MODIFICAR -->
 <!----------------------------------------->
 
+## Trigonométricas
+
 ### Seno
 
 $$\frac{d}{dx} sin(u) = cos(u)\cdot\frac{du}{dx}$$
@@ -433,6 +435,8 @@ $$\frac{d}{dx} arccsc(u) = -\frac{1}{u\cdot\sqrt{u^2-1}} \cdot\frac{du}{dx}$$
 ###### Alias
 
 - Cosecante inversa
+
+## Hiperbólicas
 
 ### Seno hiperbólico
 
