@@ -26,7 +26,7 @@ jobs:
           IFS=$'\n' read -r -d '' -a files < <( git diff --name-only ${{ github.event.before }} ${{ github.sha }} && printf '\0' )
 
           for file in "${files[@]}"; do
-                  if [[ $file == *.md ]]; then
+                  if [[ $file == *.md && -f "$file"]]; then
                           python .github/scripts/agregar_bloque_math.py "$file"
                   fi
           done
