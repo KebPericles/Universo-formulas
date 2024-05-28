@@ -328,3 +328,7 @@ $$\int \sqrt{u^2\pm c^2}du = \frac{u}{2}\sqrt{u^2 \pm c^2} \pm \frac{c^2}{2}ln\l
 
 <!-- AUTOGENERADO TERMINA - NO MODIFICAR -->
 <!----------------------------------------->
+
+# Temas relacionados
+
+- [Derivadas](./Derivadas.md)
