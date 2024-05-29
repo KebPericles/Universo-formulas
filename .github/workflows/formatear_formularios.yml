@@ -26,7 +26,8 @@ jobs:
 
       - name: Agregar bloques de código a los formularios
         run: |
-          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]
+          then
             IFS=$'\n' read -r -d '' -a files < <( git diff --name-only ${{ github.event.inputs.ref_commit }} HEAD && printf '\0' )
           else
             IFS=$'\n' read -r -d '' -a files < <( git diff --name-only ${{ github.event.before }} ${{ github.sha }} && printf '\0' )
@@ -34,7 +35,8 @@ jobs:
 
           for file in "${files[@]}"
           do
-                  if [[ $file == *.md && -f "$file"]]; then
+                  if [[ $file == *.md && -f "$file"]]
+                  then
                           python .github/scripts/agregar_bloque_math.py "$file"
                   fi
           done
