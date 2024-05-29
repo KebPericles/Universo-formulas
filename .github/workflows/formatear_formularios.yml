@@ -2,6 +2,9 @@ name: Formatear Formularios
 
 on:
   workflow_dispatch:
+    inputs:
+      ref_commit:
+        description: 'Commit de referencia, puede ser HEAD o similar'
   push:
     paths:
       - "formularios/*.md"
@@ -23,7 +26,11 @@ jobs:
 
       - name: Agregar bloques de código a los formularios
         run: |
-          IFS=$'\n' read -r -d '' -a files < <( git diff --name-only ${{ github.event.before }} ${{ github.sha }} && printf '\0' )
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            IFS=$'\n' read -r -d '' -a files < <( git diff --name-only ${{ github.event.inputs.ref_commit }} HEAD && printf '\0' )
+          else
+            IFS=$'\n' read -r -d '' -a files < <( git diff --name-only ${{ github.event.before }} ${{ github.sha }} && printf '\0' )
+          fi
 
           for file in "${files[@]}"
           do
