@@ -46,7 +46,7 @@ $$ \sin x={e^{jx}-e^{-jx} \over 2j} $$
 <!-- AUTOGENERADO INICIA - NO MODIFICAR --->
 
 ```
- \sin x={e^{jx}-e^{-jx} \over 2j} 
+ \sin x={e^{jx}-e^{-jx} \over 2j}
 ```
 
 <!-- AUTOGENERADO TERMINA - NO MODIFICAR -->
@@ -55,15 +55,15 @@ $$ \sin x={e^{jx}-e^{-jx} \over 2j} $$
 ### Coseno
 
 $$ \cos x={e^{jx}+e^{-jx} \over 2} $$
+
 <!----------------------------------------->
 <!-- AUTOGENERADO INICIA - NO MODIFICAR --->
 
 ```
- \cos x={e^{jx}+e^{-jx} \over 2} 
+ \cos x={e^{jx}+e^{-jx} \over 2}
 ```
 
 <!-- AUTOGENERADO TERMINA - NO MODIFICAR -->
 <!----------------------------------------->
- 
 
 # Temas relacionados
