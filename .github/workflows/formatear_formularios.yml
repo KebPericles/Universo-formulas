@@ -5,6 +5,13 @@ on:
     inputs:
       ref_commit:
         description: 'Commit de referencia, puede ser HEAD o similar'
+        required: true
+        type: string
+
+      branch_name:
+        description: 'Rama en la que se desea ejecutar (default = main)'
+        default: 'main'
+        type: string
   push:
     paths:
       - "formularios/*.md"
@@ -22,6 +29,7 @@ jobs:
 
       - uses: actions/checkout@v4.1.2
         with:
+          ref: ${{ (github.event_name == 'workflow_dispatch') && format('refs/heads/{0}', github.event.inputs.branch_name) || github.ref }}
           fetch-depth: 15
 
       - name: Agregar bloques de código a los formularios
