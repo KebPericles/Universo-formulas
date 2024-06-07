@@ -18,9 +18,11 @@ $$
 
 <!----------------------------------------->
 <!-- AUTOGENERADO INICIA - NO MODIFICAR --->
+
 ```
 \sin^2(t) + \cos^2(t) = 1
 ```
+
 <!-- AUTOGENERADO TERMINA - NO MODIFICAR -->
 <!----------------------------------------->
 
