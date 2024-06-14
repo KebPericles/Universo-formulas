@@ -25,19 +25,22 @@ La estructura actual para un formulario compilado sería la siguiente:
 {
   uuid: 'uuid',
   nombre: 'Nombre del formulario',
-  alias: ['alias 1', 'alias 2', 'alias 3'],
+  aliases: ['alias 1', 'alias 2', 'alias 3'],
   temas_relacionados: ['uuid-tema-relacionado-1', 'uuid-tema-relacionado-2', 'uuid-tema-relacionado-3'],
   metadatos: {
     metadato_1: 'OwO',
     metadato_2: [1, 2, 3]
   },
   referencias: ['referencia 1', 'referencia 2'],
-  contenido: {
-    default: {
+  subtemas: [
+    {
+      nombre: 'Default',
+      aliases: [],
+      referencias: ['referencia 1', 'referencia 2'],
       formulas: [
         {
           nombre: 'Nombre de la formula',
-          alias: ['alias 1', 'alias 2', 'alias 3'],
+          aliases: ['alias 1', 'alias 2', 'alias 3'],
           referencias: [
             'referencia 1',
             'referencia 2'
@@ -50,31 +53,27 @@ La estructura actual para un formulario compilado sería la siguiente:
         }
       ]
     },
-    subtemas: [
-      {
-        nombre: 'Subtema 1',
-        alias: ['alias 1', 'alias 2', 'alias 3'],
-        referencias: ['referencia 1', 'referencia 2'],
-        contenido: {
-          formulas: [
-            {
-              nombre: 'Nombre de la formula',
-              alias: ['alias 1', 'alias 2', 'alias 3'],
-              referencias: [
-                'referencia 1',
-                'referencia 2'
-              ],
-              codigo: 'codigo de la formula',
-              contenido_bruto: '',
-              otras_formulas: [
-                'codigo de otra formula'
-              ]
-            }
+    {
+      nombre: 'Subtema 1',
+      aliases: ['alias 1', 'alias 2', 'alias 3'],
+      referencias: ['referencia 1', 'referencia 2'],
+      formulas: [
+        {
+          nombre: 'Nombre de la formula',
+          aliases: ['alias 1', 'alias 2', 'alias 3'],
+          referencias: [
+            'referencia 1',
+            'referencia 2'
+          ],
+          codigo: 'codigo de la formula',
+          contenido_bruto: '',
+          otras_formulas: [
+            'codigo de otra formula'
           ]
         }
-      }
-    ]
-  }
+      ]
+    }
+  ]
 }
 ```
 
