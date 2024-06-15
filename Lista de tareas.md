@@ -1,4 +1,9 @@
 # Lista de tareas
+## Documentación
+
+- [ ] README: Mover los planes futuros a Issues o a una discusión.
+- [ ] README: Mover lo que es para contribuir a CONTRIBUTING
+- [ ] README: Rehacer el README con un enfoque para los que solo quieren usarlo.
 
 ## Formularios
 
