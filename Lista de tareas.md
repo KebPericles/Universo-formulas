@@ -18,6 +18,7 @@ Además agregar referencias a los ya existentes, el de integrales y derivadas cr
 
 ## Workflow
 
+- [ ] Cambiar autor del commit de prettier
 - [ ] Limpiar espacios en blanco antes y después del bloque de matemáticas antes de pasarlo al bloque de código. (se me ocurre incluirlo en la regex)
 
 ## API de fórmulas
