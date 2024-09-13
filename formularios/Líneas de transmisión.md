@@ -85,4 +85,3 @@ v_p=\frac{c}{\sqrt{ \varepsilon_{r} }}
 ###### Referencias
 
 - R. Neri and Beltrán Porragas Luis H., Líneas de transmisión, 1a ed. Xalapa, México: Universidad Veracruzana, 2013. (pp. 69 - 71)
-

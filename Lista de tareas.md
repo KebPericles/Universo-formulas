@@ -1,4 +1,5 @@
 # Lista de tareas
+
 ## Documentación
 
 - [ ] README: Mover los planes futuros a Issues o a una discusión.
