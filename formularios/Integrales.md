@@ -4,7 +4,7 @@ title: Integrales
 
 # Fórmulas
 
-### Notación:
+###### Notación:
 
 La siguiente notación será usada para este formulario:
 
