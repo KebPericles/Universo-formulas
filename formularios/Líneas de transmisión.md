@@ -98,8 +98,28 @@ v_p=\frac{c}{\sqrt{ \varepsilon_{r} }}
 \alpha = \frac{1}{2l}\ln\left|{ \frac{1+\sqrt{{Z_{icc}}/{Z_{ica}}}}{1-\sqrt{{Z_{icc}}/{Z_{ica}}}} }\right| [Np/m]
 ```
 
+<!----------------------------------------->
+<!-- AUTOGENERADO INICIA - NO MODIFICAR --->
+
+```
+\alpha = \frac{1}{2l}\ln\left|{ \frac{1+\sqrt{{Z_{icc}}/{Z_{ica}}}}{1-\sqrt{{Z_{icc}}/{Z_{ica}}}} }\right| [Np/m]
+```
+
+<!-- AUTOGENERADO TERMINA - NO MODIFICAR -->
+<!----------------------------------------->
+
 ### Constante de fase
 
 ```math
 \beta = \frac{1}{2l}\left\{ \angle\left( \frac{1+\sqrt{{Z_{icc}}/{Z_{ica}}}}{1-\sqrt{{Z_{icc}}/{Z_{ica}}}} \right) + 2n\pi \right\} [rad/m]
 ```
+
+<!----------------------------------------->
+<!-- AUTOGENERADO INICIA - NO MODIFICAR --->
+
+```
+\beta = \frac{1}{2l}\left\{ \angle\left( \frac{1+\sqrt{{Z_{icc}}/{Z_{ica}}}}{1-\sqrt{{Z_{icc}}/{Z_{ica}}}} \right) + 2n\pi \right\} [rad/m]
+```
+
+<!-- AUTOGENERADO TERMINA - NO MODIFICAR -->
+<!----------------------------------------->
